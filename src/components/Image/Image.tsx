@@ -35,7 +35,7 @@ const Image: FC<Props> = ({ path, ...rest }: Props) => (
             node {
               absolutePath
               childImageSharp {
-                gatsbyImageData(formats: [AVIF, WEBP, AUTO])
+                gatsbyImageData(formats: [AUTO, AVIF, WEBP])
               }
             }
           }
